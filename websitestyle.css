@@ -13,7 +13,7 @@ h1 {
 }
 
 .topnav a {
-  float: left
+  float: left;
   color: #595954;
   text-align: center;
   padding: 10px 12px;

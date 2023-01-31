@@ -3,18 +3,18 @@ p {
 }
 
 h1 {
-    color: brown;
+    color: black;
     font-size: 500%;
 }
 
 .topnav {
-  background-color: #303;
+  background-color: #111;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #f0eded;
+  color: #edebe4;
   text-align: center;
   padding: 25px 27px;
   text-decoration: none;
@@ -22,7 +22,7 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #595;
+  background-color: #edebe4;
   color: black;
 }
 

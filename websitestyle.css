@@ -1,14 +1,21 @@
 p {
-    text-indent: 50px;
+    font-family: Verdana;
+    text-indent: 20px;
+}
+
+pre {
+  font-family: Verdana;
 }
 
 h1 {
-    color: black;
-    font-size: 500%;
+  text-indent: 20px;
+  font-family: Verdana;
+  color: black;
+  font-size: 500%;
 }
 
 .topnav {
-  background-color: #111;
+  background-color: black;
   overflow: hidden;
 }
 
@@ -28,4 +35,37 @@ h1 {
 
 .topnav a.active {
   color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+}
+
+.footer-text-left {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+  float: left;
+  margin-top: 30px;
+}
+
+a:link {
+  color: lightgrey
+}
+
+a:visited {
+  color: grey
+}
+
+a:hover {
+  color: darkgrey
+}
+
+a:active {
+  color: dimgray
 }

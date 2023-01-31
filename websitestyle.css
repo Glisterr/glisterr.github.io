@@ -8,13 +8,13 @@ h1 {
 }
 
 .topnav {
-  background-color: #DAA06D;
+  background-color: #303133;
   overflow: hidden;
 }
 
 .topnav a {
   float: left;
-  color: #595954;
+  color: #f0eded;
   text-align: center;
   padding: 25px 27px;
   text-decoration: none;
@@ -22,7 +22,7 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #f0eded;
+  background-color: #595954;
   color: black;
 }
 

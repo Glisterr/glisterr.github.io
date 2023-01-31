@@ -10,13 +10,13 @@ h1 {
 .topnav {
   background-color: #DAA06D;
   overflow: hidden;
-  bottom-padding: 20px;
-  top-padding: 20px;
+  padding: 100px;
 }
 
 .topnav a {
   float: left;
   color: #595954;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   font-size: 15px;

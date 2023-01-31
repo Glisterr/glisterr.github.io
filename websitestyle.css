@@ -16,7 +16,7 @@ h1 {
   float: left
   color: #595954;
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px 12px;
   text-decoration: none;
   font-size: 15px
 }
@@ -27,6 +27,5 @@ h1 {
 }
 
 .topnav a.active {
-  background-color: #3b3775;
   color: white;
 }

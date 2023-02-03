@@ -7,16 +7,27 @@ pre {
   font-family: Verdana;
 }
 
+img {
+  float: right;
+  margin-top: 9px;
+}
+
 h1 {
   text-indent: 20px;
   font-family: Verdana;
-  color: black;
+  background: -webkit-linear-gradient(#595757, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 500%;
+  padding: 20px;
+  border-bottom: 3px solid black;
 }
 
 .topnav {
-  background-color: black;
+  background-color: #000000;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .topnav a {

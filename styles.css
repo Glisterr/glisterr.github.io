@@ -4,77 +4,82 @@
 }
 
 :root {
-    font-family: 'Orbitron', sans-serif;
+    font-family: "Orbitron", sans-serif;
 }
 
 body {
     margin: 0px;
     background-color: #000000;
     color: beige;
-    font-size: 20px;
+    font-size: 100%;
 }
 
 h1 {
     margin-left: 8px;
+    font-size: 250%;
+    text-align: center;
 }
 
 h2 {
+    font-size: 200%;
     margin-left: 8px;
+    text-align: center;
 }
 
 p {
     margin-left: 8px;
+    font-size: 150%;
+    text-align: center;
 }
 
 nav {
-    text-align: center;
-    font-size: 30px;
+    background-image: url(markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    font-size: 300%;
     padding-bottom: 2.5%;
     padding-top: 2.5%;
     background-color: #000000;
     width: 100%;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid rgb(47, 47, 47);
+}
+
+.logo {
+    display: inline;
+    padding: 0%;
+    margin-left: 5%;
 }
 
 .navtitle {
-    display: inline;
+    text-align: center;
     /*background-color: #393939;
     border: 3px solid #707070;
     padding: 10px;*/
 }
 
-.navitem {
-    display: inline;
-}
-
-.contact-section {
-    padding: 10%;
-    position: center;
-    width: 50%;
-    background-image: url(crossroads.png);
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: 100%;
+.navitems {
     text-align: center;
 }
 
-.border-small {
-    margin-top: 4px;
-    width: 338px;
+.contact-section {
+    padding-bottom: 10%;
+    width: 100%;
+    text-align: center;
 }
 
 a:link {
-    color: rgb(54, 161, 255)
+    color: rgb(54, 161, 255);
 }
   
 a:visited {
-    color: rgb(0, 115, 215)
+    color: rgb(0, 115, 215);
 }
   
 a:hover {
-    color: rgb(0, 100, 187)
+    color: rgb(0, 100, 187);
 }
   
 a:active {
-    color:rgb(0, 115, 215)
+    color:rgb(0, 115, 215);
 }

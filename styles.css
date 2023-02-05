@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("Orbitron/Orbitron-VariableFont_wght.ttf")
+}
+
+:root {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #000000;
+    color: beige;
+    font-size: 20px;
+}
+
+h1 {
+    margin-left: 8px;
+}
+
+h2 {
+    margin-left: 8px;
+}
+
+p {
+    margin-left: 8px;
+}
+
+nav {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    background-color: #000000;
+    width: 100%;
+    border-bottom: 3px solid grey;
+}
+
+.navtitle {
+    display: inline;
+    /*background-color: #393939;
+    border: 3px solid #707070;
+    padding: 10px;*/
+}
+
+.navitem {
+    display: inline;
+}
+
+.contact-section {
+    padding: 10%;
+    position: center;
+    width: 50%;
+    background-image: url(crossroads.png);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.border-small {
+    margin-top: 4px;
+    width: 338px;
+}
+
+a:link {
+    color: rgb(54, 161, 255)
+}
+  
+a:visited {
+    color: rgb(0, 115, 215)
+}
+  
+a:hover {
+    color: rgb(0, 100, 187)
+}
+  
+a:active {
+    color:rgb(0, 115, 215)
+}
